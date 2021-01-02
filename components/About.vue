@@ -24,6 +24,9 @@
 </template>
 
 <style scoped>
+#about-me {
+  position: relative;
+}
 #content {
   z-index: 1000;
   position: absolute;

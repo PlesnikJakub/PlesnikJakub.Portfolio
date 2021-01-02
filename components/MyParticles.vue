@@ -53,7 +53,7 @@
         },
         move: {
           direction: 'none',
-          enable: true,
+          enable: false,
           outMode: 'bounce',
           random: false,
           speed: 6,
