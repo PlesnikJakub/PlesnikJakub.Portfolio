@@ -5,6 +5,11 @@
     <div class="container-fluid">
       <div class="row sections">
         <div class="col">
+          <Home />
+        </div>
+      </div>
+      <div class="row sections">
+        <div class="col">
           <About />
         </div>
       </div>
@@ -25,6 +30,7 @@
 <script lang="ts">
 import Vue from 'vue'
 import Particles from 'particles.vue'
+
 Vue.use(Particles)
 
 export default Vue.extend({})
@@ -34,6 +40,7 @@ export default Vue.extend({})
 .sections {
   height: 100vh;
   scroll-snap-align: start;
+  background: black;
 }
 .container {
   margin: 0 auto;
