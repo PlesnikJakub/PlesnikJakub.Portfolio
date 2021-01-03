@@ -10,6 +10,15 @@
           }}</span>
         </transition>
       </h1>
+      <p class="paragraph-text">
+        <i>
+          I'm very passionate and dedicated to my work. With 7 years experience
+          as a professional software developer, I have acquired the skills and
+          knowledge necessary to make your project a success. I enjoy every step
+          of development from designing the system, to actual implementation and
+          testing.
+        </i>
+      </p>
     </div>
   </section>
 </template>
@@ -23,19 +32,19 @@ export default Vue.extend({
         'Developer',
         'Data Scientist',
         'League of Legends Fan',
-        'Phd Student',
+        'PhD Student',
       ],
       currentWord: 0,
       visible: true,
     }
   },
   mounted() {
-    setInterval(this.onTick, 4000)
+    setInterval(this.onTick, 2000)
   },
   methods: {
     onTick() {
       this.visible = false
-      setTimeout(() => (this.visible = true), 1500)
+      setTimeout(() => (this.visible = true), 1000)
       if (this.currentWord + 1 === this.availableWords.length) {
         this.currentWord = 0
         return
@@ -68,6 +77,15 @@ export default Vue.extend({
   text-align: left;
   margin-left: 25%;
   margin-right: 10%;
+}
+.paragraph-text {
+  color: #dddddd;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 10%;
+  max-width: 40%;
 }
 .hello-text {
   color: white;
