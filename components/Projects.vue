@@ -1,15 +1,19 @@
 <template>
-  <section class="sections" id="projects">
-    <div class="jumbotron">
-      <h1 class="display-4">My Projects</h1>
-      <p class="lead">
-        I believe projects are the best way to learn. These are some projects I
-        built.
-      </p>
-      <hr class="my-3" />
-      <div
-        class="d-flex flex-column flex-md-row flex-wrap justify-content-around"
-      >
+  <section id="projects" class="sections">
+    <div class="container">
+      <div class="row">
+        <h2 class="col text-white">Projects</h2>
+        <p class="lead text-white">
+          I believe projects are the best way to learn. These are some projects
+          I built.
+        </p>
+      </div>
+      <div class="row">
+        <Project />
+        <Project />
+        <Project />
+        <Project />
+        <Project />
         <Project />
       </div>
     </div>

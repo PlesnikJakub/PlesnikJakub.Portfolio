@@ -1,7 +1,7 @@
 <template>
   <section id="about-me">
     <MyParticles />
-    <div id="content">
+    <div id="content" class="row">
       <div class="col-lg-6 offset-3">
         <div class="card shadow-lg">
           <div class="card-body row">
