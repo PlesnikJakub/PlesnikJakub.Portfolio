@@ -66,11 +66,10 @@
 }
 .technologies ul {
   list-style: none;
-  list-style-type: "✅";
 }
 .card {
   border-radius: 0px;
-  background: #212529AA;
+  background: #212529aa;
   color: white;
   padding: 3rem;
 }

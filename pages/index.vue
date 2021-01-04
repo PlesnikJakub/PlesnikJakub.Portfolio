@@ -3,22 +3,22 @@
     <Scripts />
     <Navigation />
     <div class="container-fluid">
-      <div class="row sections">
+      <div id="Home" class="row sections">
         <div class="col">
           <Home />
         </div>
       </div>
-      <div class="row sections">
+      <div id="About" class="row sections">
         <div class="col">
           <About />
         </div>
       </div>
-      <div class="row sections">
+      <div id="Projects" class="row sections">
         <div class="col">
           <Projects />
         </div>
       </div>
-      <div class="row sections">
+      <div id="Contact" class="row sections">
         <div class="col">
           <Footer />
         </div>
@@ -37,6 +37,10 @@ export default Vue.extend({})
 </script>
 
 <style>
+.delimeter {
+  border-bottom: 2px solid #ff5900;
+  width: 100px;
+}
 .sections {
   height: 100vh;
   scroll-snap-align: start;

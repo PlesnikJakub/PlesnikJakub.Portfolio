@@ -69,7 +69,10 @@ export default Vue.extend({
   transform: translateX(10px);
   opacity: 0;
 }
-
+.jobs {
+  /*color: #ff5900;*/
+  font-weight: bold;
+}
 .intro-text {
   color: white;
   font-size: 1.5rem;

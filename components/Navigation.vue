@@ -16,13 +16,15 @@
         </button>
         <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">About me</a>
-            <a class="nav-link" href="#">Projects</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            <a class="nav-link" href="#About">About me</a>
+            <a class="nav-link" href="#Projects">Projects</a>
+            <a class="nav-link" href="#Contact">Contact</a>
           </div>
         </div>
       </div>
     </nav>
   </header>
 </template>
+
+<style scoped></style>
