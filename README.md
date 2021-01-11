@@ -1,4 +1,6 @@
 # Personal Portfolio website
+![Nuxt app Build & Lint](https://github.com/PlesnikJakub/PlesnikJakub.Portfolio/workflows/Nuxt%20app%20Build%20&%20Lint/badge.svg)
+
 Hi :wave: this is source repo of my portfolio website created with Nuxt js, bootstrap and particles js.
 
 ## Build Setup
