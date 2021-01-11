@@ -1,4 +1,5 @@
 # Personal Portfolio website
+Hi :wave: this is source repo of my portfolio website created with Nuxt js, bootstrap and particles js.
 
 ## Build Setup
 
