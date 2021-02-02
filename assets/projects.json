@@ -5,7 +5,13 @@
             "title": "Tieto",
             "subtitle": "aaa",
             "description" : "test test test",
-            "technologies": [ "C#" , ".Net" ]
+            "technologies": [ "C#" , ".Net" ],
+            "links": [
+                {
+                    "name" : "",
+                    "link" : ""
+                }
+             ]
         }
     ]
 }
