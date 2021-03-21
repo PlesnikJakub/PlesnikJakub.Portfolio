@@ -2,34 +2,41 @@
   <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
     <div class="card shadow-lg">
       <div class="card-body">
-        <h5 class="card-title">React Chat App</h5>
+        <h5 class="card-title">{{ project.title }}</h5>
         <p class="card-text">
-          Built a room-based real-time chat app with react.js using socket.io
-          and node.js. Backend deployed on Heroku and front-end was deployed on
-          Netlify.
+          {{ project.description }}
         </p>
         <p class="card-text">
           <small class="text-muted">
-            <span class="btn-sm btn-dark">react.js</span>
-            <span class="btn-sm btn-dark">node.js</span>
-            <span class="btn-sm btn-dark">socket.io</span>
-            <span class="btn-sm btn-dark">html, css, js</span>
+            <span
+              v-for="technology in project.technologies"
+              :key="technology"
+              class="btn-sm btn-dark"
+              >{{ technology }}</span
+            >
           </small>
         </p>
-
         <a
-          href="https://toughyear-react-chat-app.netlify.com/"
+          v-for="link in project.links"
+          :key="link"
+          :href="link.link"
           target="_blank"
           class="btn btn-primary card-link"
-          >Live Demo</a
-        >
-        <a
-          href="https://github.com/toughyear/chat-app-client"
-          target="_blank"
-          class="btn btn-secondary card-link"
-          >Github</a
+          >{{ link.name }}</a
         >
       </div>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  props: {
+    project: {
+      type: Object,
+      required: true,
+    },
+  },
+})
+</script>
