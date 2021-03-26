@@ -17,39 +17,18 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
+:root {
+  --primary-bg-color: #121212;
+  --primary-paper-color: #313131;
+  --primary-color: #ef6c00;
+  --primary-color-light: #ff9d3f;
+  --primary-color-dark: #b53d00;
+  --secondary-color: #039be5;
+  --secondary-color-light: #63ccff;
+  --secondary-color-dark: #006db3;
+  --primary-text-color: rgba(255, 255, 255, 222);
+  --secondary-text-color: rgba(255, 255, 255, 153);
+  --disabled-text-color: rgba(255, 255, 255, 96);
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>
