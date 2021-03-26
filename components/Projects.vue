@@ -2,8 +2,8 @@
   <section id="projects" class="sections">
     <div class="container">
       <div class="row">
-        <h2 class="col text-white">Projects</h2>
-        <p class="lead text-white">
+        <h2 class="col section-title">Projects</h2>
+        <p class="section-subtitle">
           I believe projects are the best way to learn. These are some projects
           I had oportunity to worked on.
         </p>
@@ -32,3 +32,12 @@ export default Vue.extend({
   },
 })
 </script>
+<style scoped>
+h2.section-title {
+  color: var(--primary-text-color) !important;
+}
+
+p.section-subtitle {
+  color: var(--secondary-text-color) !important;
+}
+</style>

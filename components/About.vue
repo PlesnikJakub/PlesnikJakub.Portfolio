@@ -70,7 +70,7 @@
 .card {
   border-radius: 0px;
   background: #212529aa;
-  color: white;
+  color: var(--primary-text-color);
   padding: 3rem;
 }
 #about-me {

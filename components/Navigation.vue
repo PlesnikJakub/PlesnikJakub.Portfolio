@@ -27,4 +27,8 @@
   </header>
 </template>
 
-<style scoped></style>
+<style scoped>
+.navbar .nav-link.active {
+  color: #ff761b !important;
+}
+</style>

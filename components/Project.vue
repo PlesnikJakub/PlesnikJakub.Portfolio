@@ -2,12 +2,16 @@
   <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
     <div class="card shadow-lg">
       <div class="card-body">
-        <h5 class="card-title">{{ project.title }}</h5>
+        <div class="card-title">
+          <h5>{{ project.title }}</h5>
+          <span>{{ project.subtitle }}</span>
+        </div>
+
         <p class="card-text">
           {{ project.description }}
         </p>
         <p class="card-text">
-          <small class="text-muted">
+          <small class="text-muted technologies">
             <span
               v-for="technology in project.technologies"
               :key="technology"
@@ -40,3 +44,17 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style scoped>
+.technologies span {
+  margin: 3px;
+}
+.card {
+  border-radius: 0px;
+  background: var(--primary-paper-color);
+  color: white;
+}
+.card .card-title {
+  color: var(--primary-contrast-color);
+}
+</style>

@@ -44,7 +44,7 @@ export default Vue.extend({})
 .sections {
   height: 100vh;
   scroll-snap-align: start;
-  background: black;
+  background: var(--primary-bg-color);
 }
 
 .title {

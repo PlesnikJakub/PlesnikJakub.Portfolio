@@ -74,7 +74,7 @@ export default Vue.extend({
   font-weight: bold;
 }
 .intro-text {
-  color: white;
+  color: var(--primary-text-color);
   font-size: 1.5rem;
   font-family: Roboto, sans-serif;
   text-align: left;
@@ -82,7 +82,7 @@ export default Vue.extend({
   margin-right: 10%;
 }
 .paragraph-text {
-  color: #dddddd;
+  color: var(--secondary-text-color);
   font-size: 1rem;
   font-family: Roboto, sans-serif;
   text-align: left;
@@ -91,7 +91,7 @@ export default Vue.extend({
   max-width: 40%;
 }
 .hello-text {
-  color: white;
+  color: var(--primary-text-color);
   font-size: 4rem;
   font-family: Roboto, sans-serif;
   text-align: left;
