@@ -1,28 +1,93 @@
 {
     "projects" : [
-        { 
-            "id" : 1,
-            "title": "Tieto",
-            "subtitle": "aaa",
-            "description" : "test test test",
-            "technologies": [ "C#" , ".Net" ],
+        {
+            "id" : 3,
+            "title": "Throughline",
+            "subtitle": "Nimblestory",
+            "description" : "NimbleStory is a software platform that is centered around delivering Visual Insights. This nimble, flexible and expandable system enables quick integration through the use of modules. Modules provide powerful building blocks that can be customized to create a singular visual solution",
+            "technologies": [ "PHP" , "Symfony", "Next js", "Pimcore" ],
             "links": [
                 {
-                    "name" : "",
-                    "link" : ""
+                    "name" : "github",
+                    "link" : "github"
                 }
              ]
         },
         {
+            "id" : 3,
+            "title": "Zubon",
+            "subtitle": "solution for a unique marketplace",
+            "description" : "test test test",
+            "technologies": [ "PHP" , "Laravel", "Vue js", "MySQL" ],
+            "links": [
+                {
+                    "name" : "github",
+                    "link" : "github"
+                }
+             ]
+        },
+        { 
             "id" : 1,
             "title": "Tieto",
             "subtitle": "aaa",
-            "description" : "test test test",
-            "technologies": [ "C#" , ".Net" ],
+            "description" : "In team of 10+ people I was working on large scale applications and systems that implemented message generation and processing for communication with Datahub.",
+            "technologies": [ "C#" , ".Net Core", ".Net Framework", "MSSQL" ],
             "links": [
                 {
-                    "name" : "",
-                    "link" : ""
+                    "name" : "Datahub",
+                    "link" : "https://www.fingrid.fi/en/electricity-market/datahub/"
+                }
+             ]
+        },
+        {
+            "id" : 2,
+            "title": "Ose",
+            "subtitle": "car monitoring",
+            "description" : "test test test",
+            "technologies": [ "C#" , ".Net Core" , "Angular", "MSSQL" ],
+            "links": [
+                {
+                    "name" : "github",
+                    "link" : "github"
+                }
+             ]
+        },
+        {
+            "id" : 3,
+            "title": "SaS",
+            "subtitle": "Customer Inteligence",
+            "description" : "test test test",
+            "technologies": [ "OpenUI" , "JavaScript" ],
+            "links": [
+                {
+                    "name" : "github",
+                    "link" : "github"
+                }
+             ]
+        },
+        {
+            "id" : 4,
+            "title": "Go2Go",
+            "subtitle": "aaa",
+            "description" : "test test test",
+            "technologies": [ "PHP" , "Laravel", "Vue js", "MySQL" ],
+            "links": [
+                {
+                    "name" : "github",
+                    "link" : "github"
+                }
+             ]
+        },
+        {
+            "id" : 5,
+            "title": "FloLogic",
+            "subtitle": "premium water leak control system",
+            "description" : "One of my first profesional projects. I was working on UI and bussiness logic for mobile applications.",
+            "technologies": [ ".Net", "Xaml" , "Xamarin", "MSSQL", "Azure"],
+            "links": [
+                {
+                    "name" : "github",
+                    "link" : "github"
                 }
              ]
         }
