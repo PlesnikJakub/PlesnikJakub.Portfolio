@@ -1,6 +1,6 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Jakub Plesník</a>
         <button
@@ -28,7 +28,16 @@
 </template>
 
 <style scoped>
-.navbar .nav-link.active {
-  color: #ff761b !important;
+.navbar-brand {
+  color: var(--primary-text-color);
+}
+.navbar {
+  background: var(--primary-color) !important;
+}
+.nav-link {
+  color: var(--primary-text-color);
+}
+.nav-link.active {
+  font-weight: bold;
 }
 </style>

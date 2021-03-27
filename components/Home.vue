@@ -70,8 +70,8 @@ export default Vue.extend({
   opacity: 0;
 }
 .jobs {
-  /*color: #ff5900;*/
   font-weight: bold;
+  color: var(--primary-color);
 }
 .intro-text {
   color: var(--primary-text-color);
@@ -82,7 +82,7 @@ export default Vue.extend({
   margin-right: 10%;
 }
 .paragraph-text {
-  color: var(--secondary-text-color);
+  color: var(--disabled-text-color);
   font-size: 1rem;
   font-family: Roboto, sans-serif;
   text-align: left;

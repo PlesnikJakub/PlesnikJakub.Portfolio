@@ -56,6 +56,7 @@
             "id" : 3,
             "title": "SaS",
             "subtitle": "Customer Inteligence",
+            "image": "/images/c360.png",
             "description" : "test test test",
             "technologies": [ "OpenUI" , "JavaScript" ],
             "links": [
@@ -81,7 +82,20 @@
         {
             "id" : 5,
             "title": "FloLogic",
-            "subtitle": "premium water leak control system",
+            "subtitle": "Premium water leak control system",
+            "description" : "One of my first profesional projects. I was working on UI and bussiness logic for mobile application writen in Xamarin targeting both Android and iOs. Great experiance for start of my carier.",
+            "technologies": [ ".Net", "Xaml" , "Xamarin", "MSSQL", "Azure"],
+            "links": [
+                {
+                    "name" : "github",
+                    "link" : "github"
+                }
+             ]
+        },
+        {
+            "id" : 5,
+            "title": "Cybersoft",
+            "subtitle": "Ecomerce paltform and eshops",
             "description" : "One of my first profesional projects. I was working on UI and bussiness logic for mobile applications.",
             "technologies": [ ".Net", "Xaml" , "Xamarin", "MSSQL", "Azure"],
             "links": [

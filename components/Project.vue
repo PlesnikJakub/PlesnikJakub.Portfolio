@@ -2,9 +2,12 @@
   <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
     <div class="card shadow-lg">
       <div class="card-body">
+        <img class="card-img-top" src="images/c360.png" alt="Card image cap" />
         <div class="card-title">
           <h5>{{ project.title }}</h5>
-          <span>{{ project.subtitle }}</span>
+          <span
+            ><i>{{ project.subtitle }}</i></span
+          >
         </div>
 
         <p class="card-text">
@@ -20,14 +23,6 @@
             >
           </small>
         </p>
-        <a
-          v-for="link in project.links"
-          :key="link"
-          :href="link.link"
-          target="_blank"
-          class="btn btn-primary card-link"
-          >{{ link.name }}</a
-        >
       </div>
     </div>
   </div>
@@ -52,9 +47,27 @@ export default Vue.extend({
 .card {
   border-radius: 0px;
   background: var(--primary-paper-color);
-  color: white;
+  color: var(--primary-text-color);
+  height: 100%;
+}
+.card-text {
+  text-align: justify;
+  color: var(--secondary-text-color);
+}
+.card-img-top {
+  max-height: 200px;
+  object-fit: fill;
 }
 .card .card-title {
   color: var(--primary-contrast-color);
+}
+
+.btn-dark {
+  background: var(--secondary-color-dark) !important;
+}
+
+h5 {
+  margin-bottom: 0;
+  margin-top: 1.25rem;
 }
 </style>

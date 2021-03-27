@@ -26,9 +26,16 @@ html {
   --secondary-color: #039be5;
   --secondary-color-light: #63ccff;
   --secondary-color-dark: #006db3;
-  --primary-text-color: rgba(255, 255, 255, 222);
-  --secondary-text-color: rgba(255, 255, 255, 153);
-  --disabled-text-color: rgba(255, 255, 255, 96);
+  --primary-text-color: rgba(255, 255, 255, 0.87);
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --disabled-text-color: rgba(255, 255, 255, 0.38);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--primary-color);
+}
 </style>
