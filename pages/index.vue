@@ -47,6 +47,10 @@ export default Vue.extend({})
   background: var(--primary-bg-color);
 }
 
+#Projects {
+  height: 160vh !important;
+}
+
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
