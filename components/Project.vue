@@ -2,7 +2,7 @@
   <div class="col-lg-4 col-md-6 col-sm-12 pb-4">
     <div class="card shadow-lg">
       <div class="card-body">
-        <img class="card-img-top" src="images/c360.png" alt="Card image cap" />
+        <img class="card-img-top" :src="project.image" alt="Card image cap" />
         <div class="card-title">
           <h5>{{ project.title }}</h5>
           <span

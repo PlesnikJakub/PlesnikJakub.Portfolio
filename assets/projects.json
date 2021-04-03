@@ -4,6 +4,7 @@
             "id" : 3,
             "title": "Throughline",
             "subtitle": "Nimblestory",
+            "image": "/images/throughline.png",
             "description" : "NimbleStory is a software platform that is centered around delivering Visual Insights. This nimble, flexible and expandable system enables quick integration through the use of modules. Modules provide powerful building blocks that can be customized to create a singular visual solution",
             "technologies": [ "PHP" , "Symfony", "Next js", "Pimcore" ],
             "links": [
@@ -17,6 +18,7 @@
             "id" : 3,
             "title": "Zubon",
             "subtitle": "solution for a unique marketplace",
+            "image": "/images/zubon.png",
             "description" : "test test test",
             "technologies": [ "PHP" , "Laravel", "Vue js", "MySQL" ],
             "links": [
@@ -30,7 +32,8 @@
             "id" : 1,
             "title": "Tieto",
             "subtitle": "aaa",
-            "description" : "In team of 10+ people I was working on large scale applications and systems that implemented message generation and processing for communication with Datahub.",
+            "image" : "/images/tieto.png",
+            "description" : "In team of 10+ people I was working on large scale solution that implemented system message generation and processing for communication with Datahub.",
             "technologies": [ "C#" , ".Net Core", ".Net Framework", "MSSQL" ],
             "links": [
                 {
@@ -43,6 +46,7 @@
             "id" : 2,
             "title": "Ose",
             "subtitle": "car monitoring",
+            "image": "/images/ose.png",
             "description" : "test test test",
             "technologies": [ "C#" , ".Net Core" , "Angular", "MSSQL" ],
             "links": [
@@ -70,6 +74,7 @@
             "id" : 4,
             "title": "Go2Go",
             "subtitle": "aaa",
+            "image": "/images/go2go.png",
             "description" : "test test test",
             "technologies": [ "PHP" , "Laravel", "Vue js", "MySQL" ],
             "links": [
@@ -83,6 +88,7 @@
             "id" : 5,
             "title": "FloLogic",
             "subtitle": "Premium water leak control system",
+            "image": "/images/flologic.png",
             "description" : "One of my first profesional projects. I was working on UI and bussiness logic for mobile application writen in Xamarin targeting both Android and iOs. Great experiance for start of my carier.",
             "technologies": [ ".Net", "Xaml" , "Xamarin", "MSSQL", "Azure"],
             "links": [
@@ -96,6 +102,7 @@
             "id" : 5,
             "title": "Cybersoft",
             "subtitle": "Ecomerce paltform and eshops",
+            "image": "/images/i6.jpg",
             "description" : "One of my first profesional projects. I was working on UI and bussiness logic for mobile applications.",
             "technologies": [ ".Net", "Xaml" , "Xamarin", "MSSQL", "Azure"],
             "links": [

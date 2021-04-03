@@ -4,8 +4,9 @@
       <div class="row">
         <h2 class="col section-title">Projects</h2>
         <p class="section-subtitle">
-          I believe projects are the best way to learn. These are some projects
-          I had oportunity to worked on.
+          Experience is the mother of wisdom and I think most of the experiences
+          for developers comes from different project. These are some projects I
+          had oportunity to worked on.
         </p>
       </div>
       <div class="row">
