@@ -20,7 +20,7 @@
       </div>
       <div id="Contact" class="row sections">
         <div class="col">
-          <Footer />
+          <Blog />
         </div>
       </div>
     </div>

@@ -19,6 +19,28 @@
           testing.
         </i>
       </p>
+      <div class="col-12 container mt-5">
+        <div class="row mt-5">
+          <div class="col-8 offset-2 row mt-5">
+            <div class="col-1 offset-1">
+              <img src="/github.png" class="img-thumbnail github" />
+              <h5 class="name">Github</h5>
+            </div>
+            <div class="col-1 offset-1">
+              <img src="/twitter.png" class="img-thumbnail github" />
+              <h5 class="name">Twitter</h5>
+            </div>
+            <div class="col-1 offset-1">
+              <img src="/youtube.png" class="img-thumbnail github" />
+              <h5 class="name">Youtube</h5>
+            </div>
+            <div class="col-1 offset-1">
+              <img src="/linkedin.png" class="img-thumbnail github" />
+              <h5 class="name">Linkedin</h5>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
@@ -56,6 +78,13 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+h5.name {
+  color: white;
+}
+.github {
+  background: transparent;
+  border: none;
+}
 /* Enter and leave animations can use different */
 /* durations and timing functions.              */
 .slide-fade-enter-active {
