@@ -7,15 +7,18 @@
           <div class="card-body row">
             <h2>Basic Info</h2>
             <div class="basic-info row mb-5">
-              <BasicInfo title="Age" value="27" />
-              <BasicInfo
-                title="Curent Location"
-                value="Ostrava, Czech Republic"
-              />
-              <BasicInfo title="Alma mater" value="VSB TU-Ostrava" />
-              <BasicInfo title="Company" value="SDE Software solutions" />
-              <BasicInfo title="Company" value="SDE Software solutions" />
-              <BasicInfo title="Company" value="SDE Software solutions" />
+              <div class="col-8 row">
+                <BasicInfo title="Age" value="27" />
+                <BasicInfo
+                  title="Curent Location"
+                  value="Ostrava, Czech Republic"
+                />
+                <BasicInfo title="Alma mater" value="VSB TU-Ostrava" />
+                <BasicInfo title="Company" value="SDE Software solutions" />
+              </div>
+              <div class="col-4">
+                <img src="/profile.jpg" class="img-thumbnail" />
+              </div>
             </div>
 
             <h2>Technologies</h2>
@@ -23,7 +26,8 @@
               <i>
                 I do prefer to work on backend in .Net, but if project requires
                 it, I can work with different technologies on both frontend and
-                backend.
+                backend. From my studies I do have a background in data science
+                and analysis.
               </i>
             </p>
             <div class="col-4 technologies">

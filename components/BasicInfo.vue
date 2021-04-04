@@ -1,5 +1,5 @@
 <template>
-  <div class="col-4 mb-3">
+  <div class="col-6 mb-3">
     <h5>{{ title }}</h5>
     <span>{{ value }}</span>
   </div>

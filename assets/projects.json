@@ -17,9 +17,9 @@
         {
             "id" : 3,
             "title": "Zubon",
-            "subtitle": "solution for a unique marketplace",
+            "subtitle": "Unique marketplace",
             "image": "/images/zubon.png",
-            "description" : "test test test",
+            "description" : "Application that creates place for trading in new anonymous and secure way. Allows customers to sell or buy property with minimal commision.",
             "technologies": [ "PHP" , "Laravel", "Vue js", "MySQL" ],
             "links": [
                 {
@@ -31,9 +31,9 @@
         { 
             "id" : 1,
             "title": "Tieto",
-            "subtitle": "aaa",
+            "subtitle": "Datahub message handler",
             "image" : "/images/tieto.png",
-            "description" : "In team of 10+ people I was working on large scale solution that implemented system message generation and processing for communication with Datahub.",
+            "description" : "In team of 10+ people I was working on large scale solution that implemented system message generation and processing for communication with Datahub. Datahub is a centralised information exchange system, the data stored therein will be accessed by approximately 100 electricity suppliers and over 80 DSOs responsible for the transmission of electricity in Finland. ",
             "technologies": [ "C#" , ".Net Core", ".Net Framework", "MSSQL" ],
             "links": [
                 {
@@ -45,7 +45,7 @@
         {
             "id" : 2,
             "title": "Ose",
-            "subtitle": "car monitoring",
+            "subtitle": "Car monitoring and security",
             "image": "/images/ose.png",
             "description" : "test test test",
             "technologies": [ "C#" , ".Net Core" , "Angular", "MSSQL" ],
@@ -73,7 +73,7 @@
         {
             "id" : 4,
             "title": "Go2Go",
-            "subtitle": "aaa",
+            "subtitle": "Platform for coaches and athletes",
             "image": "/images/go2go.png",
             "description" : "test test test",
             "technologies": [ "PHP" , "Laravel", "Vue js", "MySQL" ],
@@ -103,8 +103,8 @@
             "title": "Cybersoft",
             "subtitle": "Ecomerce paltform and eshops",
             "image": "/images/i6.jpg",
-            "description" : "One of my first profesional projects. I was working on UI and bussiness logic for mobile applications.",
-            "technologies": [ ".Net", "Xaml" , "Xamarin", "MSSQL", "Azure"],
+            "description" : "Cybersofrt provides ecomerce solution for various customers and I had an oportunity to work on redesign and new features for theirs eshops.",
+            "technologies": [ "ASP", "HTML" , "CSS", "JS", "MSSQL"],
             "links": [
                 {
                     "name" : "github",
