@@ -3,11 +3,29 @@
     <div class="container">
       <hr />
       <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>About</h6>
-        </div>
+        <h1>Blog Posts</h1>
+        <ul>
+          <li v-for="article of articles" :key="article.slug">
+            <BlogArticle :article="article" />
+          </li>
+        </ul>
       </div>
       <hr />
     </div>
   </footer>
 </template>
+<script>
+export default {
+  async fetch() {
+    this.articles = await this.$content('articles')
+      .only(['title', 'description', 'img', 'slug', 'author'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
+  },
+  data() {
+    return {
+      articles: [],
+    }
+  },
+}
+</script>
