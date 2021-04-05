@@ -1,6 +1,6 @@
 <template>
   <section id="home" class="sections">
-    <div class="home-text" style="padding-top: 20%;">
+    <div class="home-text pt-5">
       <span class="intro-text">Hello, my name is Jakub </span>
       <h1 class="hello-text">
         I'm a

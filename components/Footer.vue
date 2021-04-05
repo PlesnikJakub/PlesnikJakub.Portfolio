@@ -1,11 +1,11 @@
 <template>
-  <footer id="connect" class="site-footer" style="scroll-snap-align: end;">
+  <footer id="connect" class="site-footer">
     <div class="container">
       <hr />
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <h6>About</h6>
-          <p class="text-justify" style="color: gray;">
+          <p class="text-justify">
             Made with <i class="fa fa-heart"></i> using HTML, CSS, Javascript,
             Bootstrap, Fontawesome and particles.js.
           </p>
@@ -72,3 +72,8 @@
     </div>
   </footer>
 </template>
+<style scoped>
+.site-footer {
+  scroll-snap-align: end;
+}
+</style>

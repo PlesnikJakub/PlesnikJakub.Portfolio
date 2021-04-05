@@ -33,3 +33,33 @@ export default Vue.extend({
   },
 })
 </script>
+<style scoped>
+.technologies span {
+  margin: 3px;
+}
+.card {
+  background: var(--primary-paper-color);
+  color: var(--primary-text-color);
+  height: 100%;
+}
+.card-text {
+  text-align: justify;
+  color: var(--secondary-text-color);
+}
+.card-img-top {
+  max-height: 200px;
+  object-fit: fill;
+}
+.card .card-title {
+  color: var(--primary-contrast-color);
+}
+
+.btn-dark {
+  background: var(--secondary-color-dark) !important;
+}
+
+h5 {
+  margin-bottom: 0;
+  margin-top: 1.25rem;
+}
+</style>

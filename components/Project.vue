@@ -45,7 +45,6 @@ export default Vue.extend({
   margin: 3px;
 }
 .card {
-  border-radius: 0px;
   background: var(--primary-paper-color);
   color: var(--primary-text-color);
   height: 100%;

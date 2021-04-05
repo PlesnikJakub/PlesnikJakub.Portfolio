@@ -1,5 +1,5 @@
 <template>
-  <footer id="Blog" class="site-footer" style="scroll-snap-align: end;">
+  <footer id="Blog" class="site-footer">
     <div class="container">
       <hr />
       <div class="row">
@@ -29,3 +29,8 @@ export default {
   },
 }
 </script>
+<style scoped>
+.site-footer {
+  scroll-snap-align: end;
+}
+</style>
