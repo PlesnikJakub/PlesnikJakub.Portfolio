@@ -1,6 +1,6 @@
 <template>
   <section id="home" class="sections">
-    <div class="home-text pt-5">
+    <div class="home-text">
       <span class="intro-text">Hello, my name is Jakub </span>
       <h1 class="hello-text">
         I'm a
@@ -23,19 +23,19 @@
         <div class="row mt-5">
           <div class="col-8 offset-2 row mt-5">
             <div class="col-1 offset-1">
-              <img src="/github.png" class="img-thumbnail github" />
+              <img src="~/assets/github.png" class="img-thumbnail github" />
               <h5 class="name">Github</h5>
             </div>
             <div class="col-1 offset-1">
-              <img src="/twitter.png" class="img-thumbnail github" />
+              <img src="~/assets/twitter.png" class="img-thumbnail github" />
               <h5 class="name">Twitter</h5>
             </div>
             <div class="col-1 offset-1">
-              <img src="/youtube.png" class="img-thumbnail github" />
+              <img src="~/assets/youtube.png" class="img-thumbnail github" />
               <h5 class="name">Youtube</h5>
             </div>
             <div class="col-1 offset-1">
-              <img src="/linkedin.png" class="img-thumbnail github" />
+              <img src="~/assets/linkedin.png" class="img-thumbnail github" />
               <h5 class="name">Linkedin</h5>
             </div>
           </div>
@@ -78,6 +78,9 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.home-text {
+  padding-top: 20%;
+}
 h5.name {
   color: white;
 }
