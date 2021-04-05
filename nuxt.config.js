@@ -9,7 +9,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   router: {
-    base: '/PlesnikJakub.Portfolio/',
+    base: '/Portfolio/',
   },
 
   head: {
